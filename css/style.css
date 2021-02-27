@@ -16,7 +16,6 @@
 
 .header {
   width: 1600px;
-  height: 80px;
 }
 
 .hero {
@@ -26,9 +25,30 @@
 }
 .hidden {
   width: 1170px;
-  height: 101px;
 }
 .doing {
   width: 1170px;
-  height: 386px;
+}
+
+.blue {
+  color: rgba(33, 150, 243, 1);
+}
+
+/* WebStudio */
+.web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.textnav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
