@@ -14,22 +14,6 @@
   font-style: normal;
 }
 
-.header {
-  width: 1600px;
-}
-
-.hero {
-  width: 1600px;
-  height: 600px;
-  background-color: rgba(47, 48, 58, 1);
-}
-.hidden {
-  width: 1170px;
-}
-.doing {
-  width: 1170px;
-}
-
 .blue {
   color: rgba(33, 150, 243, 1);
 }
@@ -51,4 +35,17 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.navlist:focus,
+.navlist:hover {
+  color: #2196f3;
+}
+
+.telhead {
+  color: #757575;
+}
+
+.tel-mail {
+  color: rgba(255, 255, 255, 0.6);
 }
