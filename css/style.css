@@ -1,10 +1,18 @@
-body {
-  background-color: white;
-}
-
 /* font-family: 'Roboto', sans-serif; */
 
 /* font-family: 'Raleway', sans-serif; */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
 
 .header {
   width: 1600px;
