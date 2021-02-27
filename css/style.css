@@ -1,3 +1,26 @@
 body {
   background-color: white;
 }
+
+/* font-family: 'Roboto', sans-serif; */
+
+/* font-family: 'Raleway', sans-serif; */
+
+.header {
+  width: 1600px;
+  height: 80px;
+}
+
+.hero {
+  width: 1600px;
+  height: 600px;
+  background-color: rgba(47, 48, 58, 1);
+}
+.hidden {
+  width: 1170px;
+  height: 101px;
+}
+.doing {
+  width: 1170px;
+  height: 386px;
+}
