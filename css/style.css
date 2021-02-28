@@ -1,5 +1,4 @@
 /* font-family: 'Roboto', sans-serif; */
-
 /* font-family: 'Raleway', sans-serif; */
 
 .link {
@@ -14,38 +13,92 @@
   font-style: normal;
 }
 
-.blue {
-  color: rgba(33, 150, 243, 1);
+.body-front-family {
+  font-family: "Roboto", sans-serif;
+}
+
+.web-blue {
+  color: #2196f3;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 
 /* WebStudio */
-.web {
+.web-logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #000000;
+  color: #000;
 }
 
-.textnav {
-  font-family: "Roboto", sans-serif;
+.text-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.navlist:focus,
-.navlist:hover {
-  color: #2196f3;
-}
-
-.telhead {
+.tel-mail-head {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 
-.tel-mail {
-  color: rgba(255, 255, 255, 0.6);
+.nav-list:focus,
+.nav-list:hover {
+  color: #2196f3;
+}
+
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  /*color: #ffffff;*/
+}
+
+.text-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  /*color: #FFFFFF;*/
+}
+
+.text-main {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.text-main-normal {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.text-doing {
+}
+.tel-mail-footer {
+  color: #ffffff99;
 }
