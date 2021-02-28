@@ -15,6 +15,7 @@
 
 .body-front-family {
   font-family: "Roboto", sans-serif;
+  color: #212121;
 }
 
 .web-blue {
@@ -64,6 +65,7 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
   /*color: #FFFFFF;*/
 }
 /*======END HERO======*/
@@ -113,6 +115,7 @@
 }
 
 .tel-mail-footer {
+  color: auto;
   /*color: #ffffff99;*/
 }
 /*======END FOOTER======*/
@@ -125,6 +128,7 @@
   letter-spacing: 0.03em;
   color: #000000;
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .button-style:focus,
