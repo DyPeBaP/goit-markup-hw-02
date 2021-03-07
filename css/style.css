@@ -150,10 +150,15 @@ img {
 }
 /*======END HERO======*/
 /*======MAIN======*/
-.team {
-  background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+.main-list {
+  display: flex;
+  align-items: center;
+  margin-top: 89px;
+  margin-bottom: 94px;
+}
+
+.main-list-text:not(:last-child) {
+  margin-right: 30px;
 }
 .team-list {
   display: flex;
@@ -175,8 +180,15 @@ img {
 .text-center {
   font-weight: 600;
   font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+}
+.team-img {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.team-img-margin:not(:last-child) {
+  margin-right: 30px;
 }
 
 .text-center-team {
