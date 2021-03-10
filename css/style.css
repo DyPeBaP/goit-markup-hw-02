@@ -156,6 +156,7 @@ img {
 .portfolio-nav {
   margin-top: 94px;
   display: flex;
+  justify-content: center;
 }
 
 .portfolio-hero:not(:last-child) {
@@ -167,10 +168,6 @@ img {
 /*======MAIN======*/
 .team {
   background-color: #f5f4fa;
-}
-
-.work-team {
-  padding: 94px 0 94px;
 }
 
 .main-list {
@@ -201,7 +198,6 @@ img {
 }
 
 .text-center {
-  padding-top: 94px;
   font-weight: 600;
   font-size: 36px;
   text-align: center;
@@ -296,7 +292,6 @@ img {
   border: transparent;
   text-align: center;
   padding: 6px 22px;
-  margin-bottom: 40px;
 }
 .button-style:focus,
 .button-style:hover {
@@ -306,6 +301,26 @@ img {
 /*======END BUTTONS======*/
 
 /*======PORTFOLIO======*/
+.section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.section-padding {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+.section-portfolio {
+  margin-bottom: 50px;
+}
+
+.portfolio-padding {
+  padding: 20px 23px 19px;
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
+
 .portfolio {
   font-weight: 700;
   font-size: 18px;
@@ -324,18 +339,14 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-basis: calc(100% / 3 - 0px);
+  margin-right: -30px;
 }
 
 .portfolio-photos {
-  margin-top: 30px;
-  margin-left: 30px;
-  flex-basis: calc(100% / 3 - 0px);
-}
-
-.portfolio-projects {
-}
-
-.portfolio-projects-item {
+  margin-bottom: 30px;
+  margin-right: 30px;
+  outline: 1px solid rgb(238, 130, 130);
 }
 
 /*======END PORTFOLIO======*/
