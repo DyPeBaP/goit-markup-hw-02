@@ -61,10 +61,11 @@ img {
 }
 /*======END CONTAINER======*/
 /*======NAV======*/
-
-.header .container {
+.header {
   padding-top: 24px;
   padding-bottom: 25px;
+}
+.header .container {
   display: flex;
   align-items: center;
   background-color: #ffffff;
